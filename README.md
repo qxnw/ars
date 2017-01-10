@@ -1,10 +1,10 @@
 #ARS
-基于ZK提供集群的可单机运行的基础服务及功能，提供的功能包括:
-* 微服务化，基于LUA脚本，提供grpc，http等服务
-* 服务自动上线及发现，根据ZK任务配置启动服务，自动上线，消费端自动发现服务
-* 负载均衡 提供基于轮循，响应速度，服务端负载等机制
-* 提供多种服务支持 http服务器，反向代理服务，grpc服务器，分布式JOB服务器，自动JOB， MQ消费端
-* 其它组件支持 oracle，memcache，redis，influxdb，es，stomp，metric，logger，kafka
+基于ZK提供集群的可单机运行的基础服务及功能，包括:
+* 微服务化:基于LUA脚本提供服务，调用方式支持rpc，http api
+* 服务自动上线及发现:根据ZK任务配置启动服务，自动上线，消费端自动发现服务
+* 负载均衡:提供基于轮循，响应速度，服务端负载等负载均衡机制
+* 提供多种服务支持:http服务器，反向代理服务，grpc服务器，分布式JOB服务器，自动JOB， MQ消费端
+* 其它组件支持:oracle，memcache，redis，influxdb，es，stomp，metric，logger，kafka
 
 # ARS包含三大基础服务器（AppServer, RCServer, SPServer）
 
